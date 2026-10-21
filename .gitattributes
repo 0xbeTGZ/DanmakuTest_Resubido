@@ -1,0 +1,14 @@
+# Forzar line endings LF para todos los archivos de codigo y configuracion.
+# Esto evita que Windows convierta a CRLF al hacer checkout y genere diffs ruidosos.
+*.java   text eol=lf
+*.xml    text eol=lf
+*.md     text eol=lf
+*.properties text eol=lf
+*.txt    text eol=lf
+
+# Binarios sin transformacion (por si en el futuro agregamos sprites/audio)
+*.png    binary
+*.jpg    binary
+*.wav    binary
+*.ogg    binary
+*.mp3    binary
